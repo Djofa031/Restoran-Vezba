@@ -1,0 +1,189 @@
+body{
+   font-family: 'Montserrat', sans-serif;;
+   margin: 0;
+}
+img{
+   max-width: 100%;
+   height: auto;
+}
+.rezervacije{
+   background-color: #864313;
+   font-size: 9px;
+   font-weight: 400;
+   color: white;
+   padding: 0.5px;
+}
+.container{
+   width: 1200px;
+   margin: 0 auto;
+}
+
+.navi{
+   background-color: black;
+   padding: 8px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+.navi img{
+   height: 35px;
+}
+
+.navi_links ul{
+   position: relative;
+   top: 10px ;
+}
+
+.navi_links ul li{
+   list-style: none;
+   display: inline;
+   padding: 10px;
+}
+
+.navi_links a{
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   text-decoration: none;;
+   padding: 10px;
+   font-weight: 600;
+}
+
+.navi_links a:hover{
+   background-color: gray;
+}
+
+.page1{
+   padding: 200px;
+   background-image: url("images/hero.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position:center top;
+   display: flex;
+   align-items: center;
+   border-bottom: 6px solid #999;
+}
+
+.page1_text{
+   color: white;
+}
+.page1 #text1{
+   font-size: 35px;
+   font-weight: 700;
+}
+
+.page1 #text2{
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.page2{
+   padding: 50px 0;
+}
+.page2_content p{
+   font-size: 16px;
+   text-align: justify;
+}
+.page2 h1{
+   color: #cf6c25;
+}
+.page2 .container{
+   display: flex;
+   justify-content: space-between;
+   gap: 5%;
+}
+.page2_img{
+   flex-basis: 30%;
+}
+.page2_content{
+   flex-basis: 30%;
+   flex-grow: 1;
+}
+
+.page3{
+   background-color: #864313;
+   font-size: 16px;
+   padding: 50px;
+}
+
+.page3 .container{
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   gap: 3%;
+}
+
+.page3_content{
+   flex-basis: 60%;
+}
+
+.page3_img{
+   flex-basis: 10%;
+   flex-grow: 1;
+}
+
+.page4 .container{
+   padding: 50px;
+   display: flex;
+   align-items: center;
+   gap: 10%;
+}
+
+.page4 .jelovnik{
+   flex-basis: 25%;
+} 
+
+.page4 .jelo1{
+   flex-basis: 25%;
+}
+
+.page4 .jelo2{
+   flex-basis: 25%;
+}
+
+.jelovnik button{
+   background-color: #cf6c25d2;
+   padding: 5px;
+   border-radius: 8px;
+}
+
+.jelovnik button a{
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.page4 .container h1{
+  color: #cf6c25; 
+}
+
+.socials{
+   background-color: gray;
+   padding-top: 30px;
+   padding-bottom: 80px;
+}
+
+.socials .container{
+   display: flex;
+   justify-content: space-between;
+}
+
+.socials i{
+   color:white;
+   font-size: 20px;
+}
+#insta{
+   margin: 0 10px;
+}
+
+.copyright{
+   background-color: black;
+   display: flex;
+   justify-content: center;
+}
+.copyright p{
+   color: white;
+   font-size: 12px;
+}
